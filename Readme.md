@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Oleg Zhuravlev](https://up.htmlacademy.ru/htmlcss/28/user/1486025).
-* Наставник: [Андрей Островский].
+* Наставник: [Андрей Островский] (https://htmlacademy.ru/profile/grandmaus).
 
 ---
 
