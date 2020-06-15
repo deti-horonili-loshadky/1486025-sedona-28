@@ -92,14 +92,33 @@
   	  		  и мы покажем вам лучшие предложения гостиниц в Седоне
   	  	  </p>
   	  	</header>
-  	  	<button type="button">Поиск гостиницы в Седоне</button>
   	  </section>
-  	  <ul>
-  	  	<li>Дата заезда:24 апреля 2017</li>
-  	  	<li>Дата выезда:4 июля 2017</li>
-  	  	<li>Взрослые:2</li>
-  	  	<li>Дети:0</li>
-  	  </ul>
+      <section>
+        <h3>Поиск гостиницы в Седоне</h3>
+        <form action="https://echo.https://htmlacademy.ru" method="post">
+  	      <p>
+  	  	    <label for="arrival_date">Дата заезда:</label>
+  	  	    <input id="arrival_date" type="text" name="arrival_date" placeholder="24.04.2017">
+          </p>
+          <p>
+            <label for="departure_date">Дата выезда:</label>
+            <input id="departure_date" type="text" name="departure_date" placeholder="04.07.2017">
+          </p>
+          <p>
+  	  	    <label for="adults">Взрослые:</label>
+            <button type="submit">-</button>
+            <input id="adults" type="text" name="adults" value="2">
+            <button type="submit">+</button>
+          </p>
+          <p>
+  	  	    <label for="children">Дети:</label>
+            <button type="submit">-</button>
+            <input id="children" type="text" name="children" value="0">
+            <button type="submit">+</button>
+  	      </p>
+          <button type="submit" value="Найти">Найти</button>
+        </form>
+      </section>
       <div>
         <img src="img/map.png" width="1199" height="594" alt="Карта штата Аризона с городком Седона">
       </div>
