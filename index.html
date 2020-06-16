@@ -92,33 +92,35 @@
   	  		  и мы покажем вам лучшие предложения гостиниц в Седоне
   	  	  </p>
   	  	</header>
+        <button type="submit">Поиск гостиницы в седоне</button>
   	  </section>
-      <section>
-        <h3>Поиск гостиницы в Седоне</h3>
+      <div>
         <form action="https://echo.https://htmlacademy.ru" method="post">
   	      <p>
-  	  	    <label for="arrival_date">Дата заезда:</label>
-  	  	    <input id="arrival_date" type="text" name="arrival_date" placeholder="24.04.2017">
+  	  	    <label for="arrival-date">Дата заезда:</label>
+  	  	    <input id="arrival-date" type="text" name="arrival-date" placeholder="24 апреля 2017" required>
+            <button type="button" aria-label="Календарь"><img src="img/calendar.svg" alt="Календарь"></button>
           </p>
           <p>
-            <label for="departure_date">Дата выезда:</label>
-            <input id="departure_date" type="text" name="departure_date" placeholder="04.07.2017">
+            <label for="departure-date">Дата выезда:</label>
+            <input id="departure-date" type="text" name="departure-date" placeholder="04 июля 2017" required>
+            <button type="button" aria-label="Календарь"><img src="img/calendar.svg" alt="Календарь"></button>
           </p>
           <p>
   	  	    <label for="adults">Взрослые:</label>
-            <button type="submit">-</button>
+            <button type="button" aria-label="Убрать взрослого">-</button>
             <input id="adults" type="text" name="adults" value="2">
-            <button type="submit">+</button>
+            <button type="button" aria-label="Добавить взрослого">+</button>
           </p>
           <p>
   	  	    <label for="children">Дети:</label>
-            <button type="submit">-</button>
+            <button type="button" aria-label="Убрать ребенка">-</button>
             <input id="children" type="text" name="children" value="0">
-            <button type="submit">+</button>
+            <button type="button" aria-label="Добавить ребенка">+</button>
   	      </p>
-          <button type="submit" value="Найти">Найти</button>
+          <button type="submit">Найти</button>
         </form>
-      </section>
+      </div>
       <div>
         <img src="img/map.png" width="1199" height="594" alt="Карта штата Аризона с городком Седона">
       </div>
