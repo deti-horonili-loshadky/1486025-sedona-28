@@ -54,6 +54,10 @@ img {
   list-style: none;
 }
 
+.active {
+  color: #766357;
+}
+
 .slogan {
   font-size: 21px;
 }
