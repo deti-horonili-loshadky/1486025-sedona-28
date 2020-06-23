@@ -6,21 +6,20 @@
   --basic-brown: #766357;
   --basic-brown-light: #eeeeee;
   --basic-gray: #888888;
+  --basic-black: #000000;
 }
 
 /*Global*/
 
 body {
-  min-width: 788;
   margin: 0;
   padding: 0;
   position: relative;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
-  font-weight: normal;
-  text-transform: uppercase;
-  background-color: var(--basic-black);
+  font-weight: 400px;
+  background-color: var(--basic-white);
   text-transform: uppercase;
 }
 
@@ -33,39 +32,38 @@ img {
   height: auto;
 }
 
+/**/
+
+.wellcome {
+  height: 509px;
+  background-image: url(../img/background-photo.jpg);
+  background-repeat: no-repeat;
+}
+
 /*Main navigation*/
 
 .page-navigation {
-  font-size: 14px;
   font-weight: bold;
-  width: 1200px;
-  height: 565px;
   line-height: 26px;
   min-height: 56px;
   color: var(--basic-black);
-  background-color: var(--basic-white);
-  background-position: top center;
-  background-repeat: no-repeat;
   position: relative;
 }
 
 .site-navigation {
   margin: 0;
   padding: 0;
-  width: 1200px;
-  height: 56px;
-  background-color: var(--basic-white);
   list-style: none;
 }
 
-.container {
-  width: 1200px;
-}
-
-.visual-hidden {
-  position: center;
-  width: 1px;
-  height: 1px;
+.slogan {
+  position: absolute;
+  left: -10000px;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .entry {
@@ -80,31 +78,30 @@ img {
 }
 
 .footer {
-  position: relative;
   background-color: var(--basic-white);
-  align-items: center;
-  height: 120px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
+  color: var(--basic-black);
+
 }
 
 .contacts {
+  font-weight: 700;
   margin: 0;
   width: 250px;
+  color: var(--basic-black);
+  font-size: 21px;
 }
 
 .form {
   align-items: center;
-  height: 217px;
   font-size: 16px;
   line-height: 21px;
-  color: var(--basic-white);
+  color: var(--basic-black);
 }
 
-.info-wrapper {
-  display: flex;
-  width: 256px;
-  height: 90px;
-  justify-content: space-between;
+.hotel-title-link {
+  width: 240px;
+  height: 26px;
 }
 
