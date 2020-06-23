@@ -18,7 +18,7 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
-  font-weight: 400px;
+  font-weight: 400;
   background-color: var(--basic-white);
   text-transform: uppercase;
 }
@@ -34,8 +34,7 @@ img {
 
 /**/
 
-.wellcome {
-  height: 509px;
+.welcome {
   background-image: url(../img/background-photo.jpg);
   background-repeat: no-repeat;
 }
@@ -43,9 +42,8 @@ img {
 /*Main navigation*/
 
 .page-navigation {
-  font-weight: bold;
+  font-weight: 700;
   line-height: 26px;
-  min-height: 56px;
   color: var(--basic-black);
   position: relative;
 }
@@ -57,24 +55,16 @@ img {
 }
 
 .slogan {
-  position: absolute;
-  left: -10000px;
-  overflow: hidden;
-  width: 0;
-  height: 0;
-  opacity: 0;
-  visibility: hidden;
+  font-size: 21px;
 }
 
 .entry {
   text-align: center;
   line-height: 26px;
-  height: 216px;
 }
 
 .order {
   align-items: center;
-  min-height: 290px;
 }
 
 .footer {
@@ -102,6 +92,5 @@ img {
 
 .hotel-title-link {
   width: 240px;
-  height: 26px;
 }
 
