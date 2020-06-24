@@ -67,6 +67,22 @@ img {
   line-height: 26px;
 }
 
+.description {
+  display: inline-block;
+  width: 400px;
+  height: 256px;
+  vertical-align: top;
+  background-color: var(--basic-blue);
+  text-align: center;
+  line-height: 21px;
+  color: #ffffff;
+  white-space: normal;
+}
+
+.housing {
+  font-size: 21px;
+}
+
 .order {
   align-items: center;
 }
@@ -88,10 +104,30 @@ img {
 }
 
 .form {
+  display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 21px;
   color: var(--basic-black);
+}
+
+
+.infrastructure {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.found {
+  color: #000000;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.sort {
+  color: #000000;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .hotel-title-link {
