@@ -55,7 +55,7 @@ img {
 }
 
 .active {
-  color: #766357;
+  color: var(--basic-brown);
 }
 
 .slogan {
@@ -75,7 +75,7 @@ img {
   background-color: var(--basic-blue);
   text-align: center;
   line-height: 21px;
-  color: #ffffff;
+  color: var(--basic-white);
   white-space: normal;
 }
 
@@ -118,14 +118,20 @@ img {
 }
 
 .found {
-  color: #000000;
+  color: var(--basic-black);
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
 }
 
 .sort {
-  color: #000000;
+  color: var(--basic-black);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.compilation {
+  color: var(--basic-black);
   font-size: 12px;
   line-height: 18px;
 }
