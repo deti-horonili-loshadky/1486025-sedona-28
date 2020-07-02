@@ -63,11 +63,13 @@ img {
 /*Main navigation*/
 
 .page-navigation {
-  position: absolute;
   font-weight: 700;
   line-height: 26px;
   color: var(--basic-black);
+}
 
+.page-header-logo {
+  position: absolute;
 }
 
 .site-navigation {
