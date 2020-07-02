@@ -37,18 +37,24 @@ img {
 }
 
 .page-body {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
   min-height: 100%;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
-  align-content: start;
+  align-content: center;
+  outline: 5px solid rgba(152, 251, 152, 0.7);
+  outline-offset: -5px;
 }
 /**/
 
 .welcome {
+  background-image: url(../img/background-photo.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
   outline: 5px solid rgba(255, 0, 0, 0.5);
   outline-offset: -5px;
-  background-image: url(../img/background-photo.jpg);
-  background-repeat: no-repeat;
   width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
@@ -57,13 +63,11 @@ img {
 /*Main navigation*/
 
 .page-navigation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: absolute;
   font-weight: 700;
   line-height: 26px;
   color: var(--basic-black);
-  position: relative;
+
 }
 
 .site-navigation {
@@ -73,11 +77,12 @@ img {
   list-style: none;
   outline: 5px solid rgba(255, 0, 255, 0.5);
   outline-offset: -5px;
-  last-style: none;
 }
 
 .main-header-logo {
-  order: 2;
+  margin-top: 78px;
+  margin-bottom: 23px;
+  margin-left: 372px;
   width: 457px;
   height: 351px;
   outline: 5px solid rgba(255, 0, 0, 0.5);
@@ -93,12 +98,17 @@ img {
 }
 
 .entry {
+  padding: 50px 0;
+  width: 1200px;
   text-align: center;
   line-height: 26px;
 }
 
 .description {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   width: 400px;
   height: 256px;
   vertical-align: top;
@@ -114,11 +124,7 @@ img {
 }
 
 .order {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  outline: 5px solid rgba(0, 250, 154, 0.5);
-  outline-offset: -5px;
+  text-align: center;
 }
 
 .footer {
@@ -153,7 +159,6 @@ img {
   line-height: 21px;
   color: var(--basic-black);
 }
-
 
 .infrastructure {
   font-size: 16px;
@@ -193,3 +198,8 @@ img {
   last-style: none;
 }
 
+.lookup-table {
+  outline: 5px solid rgba(255, 0, 255, 0.5);
+  outline-offset: -5px;
+  last-style: none;
+}
