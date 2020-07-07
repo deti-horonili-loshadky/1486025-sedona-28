@@ -119,6 +119,14 @@ img {
   line-height: 21px;
   color: var(--basic-white);
   white-space: normal;
+  outline: 5px solid rgba(123, 104, 238, 0.5);
+  outline-offset: -5px;
+}
+
+.description-image {
+  width: 800px;
+  outline: 5px solid rgba(135, 206, 235, 0.5);
+  outline-offset: -5px;
 }
 
 .housing {
@@ -129,7 +137,57 @@ img {
   text-align: center;
 }
 
+.attraction {
+  width: 1200px;
+  display: flex;
+}
+
+.tempting-advantages {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.small-square {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 256px;
+  font-size: 1rem;
+  float: left;
+  width: 33.333%;
+  background-color: var(--basic-brown-light);
+  text-align: center;
+  outline: 5px solid rgba(128, 0, 128, 0.7);
+}
+
+.beautiful-road {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 256px;
+  font-size: 1rem;
+  float: left;
+  width: 33.333%;
+  background-color: var(--basic-brown-light);
+  text-align: center;
+  outline: 5px solid rgba(128, 0, 128, 0.7);
+}
+
+.few-tourists {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  min-height: 256px;
+  font-size: 1rem;
+  width: 33.333%;
+  background-color: var(--basic-brown-light);
+  text-align: center;
+  outline: 5px solid rgba(128, 0, 128, 0.7);
+}
+
 .footer {
+  width: 1200px;
   background-color: var(--basic-white);
   margin: 0;
   padding: 0;
@@ -160,6 +218,8 @@ img {
   font-size: 14px;
   line-height: 21px;
   color: var(--basic-black);
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+  outline-offset: -5px;
 }
 
 .infrastructure {
@@ -201,10 +261,23 @@ img {
 }
 
 .lookup-table {
+  width: 568px;
   display: flex;
   flex-direction: column;
   align-items: center;
   outline: 5px solid rgba(255, 0, 255, 0.5);
   outline-offset: -5px;
   last-style: none;
+}
+
+.sorting-items {
+  width: 1200px;
+  outline: 5px solid rgba(47, 79, 79, 0.5);
+  outline-offset: -5px;
+}
+
+.map-state {
+  width: 1200px;
+  outline: 5px solid rgba(47, 79, 79, 0.5);
+  outline-offset: -5px;
 }
