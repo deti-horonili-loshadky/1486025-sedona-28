@@ -39,7 +39,6 @@ img {
 .page-body {
   width: 1200px;
   margin: 0 auto;
-  padding: 0px 40px;
   min-height: 100%;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
@@ -59,9 +58,7 @@ img {
 /*Main navigation*/
 
 .page-navigation {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
   font-weight: 700;
   line-height: 26px;
   color: var(--basic-black);
@@ -72,6 +69,7 @@ img {
 }
 
 .site-navigation {
+  text-align: left;
   width: 100%;
   margin-bottom: 40px;
   padding: 0;
@@ -87,7 +85,6 @@ img {
   min-height: 509px;
   outline: 5px solid rgba(123, 104, 238, 0.5);
   outline-offset: -5px;
-  font-size: 1rem;
 }
 
 .main-header-logo {
@@ -113,7 +110,7 @@ img {
 .entry {
   outline: 5px solid rgba(255, 0, 0, 0.5);
   padding-top: 10px;
-  height: 216px;
+  min-height: 216px;
   width: 1200px;
   text-align: center;
   line-height: 26px;
@@ -163,31 +160,24 @@ img {
   list-style-type: none;
 }
 
-.advantages-housing {
+.benefit {
   text-align: center;
   width: 400px;
   padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.housing {
   background-image: url(../img/housing.svg);
-  background-repeat: no-repeat;
-  background-position: top center;
 }
 
-.advantages-food {
-  text-align: center;
-  width: 400px;
-  padding-top: 30px;
+.food {
   background-image: url(../img/food.svg);
-  background-repeat: no-repeat;
-  background-position: top center;
 }
 
-.advantages-gift {
-  text-align: center;
-  width: 400px;
-  padding-top: 30px;
+.gift {
   background-image: url(../img/gift.svg);
-  background-repeat: no-repeat;
-  background-position: top center;
 }
 
 .dignity {
@@ -199,23 +189,7 @@ img {
   text-align: center;
 }
 
-.small-square {
-  width: 400px;
-  min-height: 256px;
-  background-color: var(--basic-brown-light);
-  text-align: center;
-  outline: 5px solid rgba(128, 0, 128, 0.7);
-}
-
-.beautiful-road {
-  width: 400px;
-  min-height: 256px;
-  background-color: var(--basic-brown-light);
-  text-align: center;
-  outline: 5px solid rgba(128, 0, 128, 0.7);
-}
-
-.few-tourists {
+.description-place {
   width: 400px;
   min-height: 256px;
   background-color: var(--basic-brown-light);
@@ -224,7 +198,6 @@ img {
 }
 
 .lookup-table {
-  display: table;
   margin: 0 auto;
 }
 
@@ -232,7 +205,7 @@ img {
   display: flex;
   margin: 0 auto;
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 26px;
   background-color: var(--basic-brown);
   color: var(--basic-white);
@@ -242,11 +215,10 @@ img {
 
 .footer {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  padding: 37px 0;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  height: 120px;
+  min-height: 120px;
   width: 100%;
   background-color: var(--basic-white);
   color: var(--basic-black);
